@@ -1,0 +1,50 @@
+.homeButton{
+  text-align: center;
+  color:green;
+  padding:10px;
+  border-radius: 15%;
+}
+.majorContainer{
+  background-color: rgba(247, 246, 234, 0.541);
+  padding-left: 60px;
+  margin:0%;
+}
+.majorContainer h1{
+  font-family:sans-serif;
+  font-size: xx-large;
+  text-decoration: underline ;
+}
+.majorContainer h3{
+  text-decoration: underline;
+}
+.majorContainer h4{
+  text-decoration: underline;
+}
+.border{
+  padding:0px;
+}
+.description{
+  width :100%;
+  border: 2px solid white;
+  font-family: sans-serif;
+}
+.blink{
+  animation:blinker 2.5s linear infinite;
+  color :black;
+  font-family: 'Courier New', Courier, monospace;
+}
+@keyframes blinker{
+  50%{
+    opacity:0;
+  }
+}
+.login{
+  margin-top: 200px;
+}
+.signin{
+  margin-top: 50px;
+}
+.card-img{
+  width:100%;
+  height:340px;
+}

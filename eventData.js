@@ -1,0 +1,236 @@
+import img1 from './1c35a454dce2145a6893592331e0af37.jpg';
+import img2 from './6.jpg';
+import img3 from './@mirandatinoco.jpeg';
+import img4 from './4.jpg';
+import img5 from './5.jpg';
+import img6 from './6.jpg';
+import img7 from './7.jpg';
+import img8 from './8.jpg';
+import img9 from './9.jpg';
+import img10 from './10.jpg';
+import img11 from './11.jpg';
+import img12 from './12.jpg';
+import img13 from './13.jpg';
+import img14 from './14.jpg';
+import img15 from './15.jpg';
+import img16 from './16.jpg';
+import img17 from './17.jpg';
+import img18 from './18.jpg';
+import img19 from './19.jpg';
+
+const eventData = [
+  {
+    id: 1,
+    eventName: "Trade Show",
+    organiserName: "Trade Fair Organizer",
+    contactNo: "9177465321",
+    address: "1234 Park Avenue, City",
+    numTickets: 400,
+    costOfEachTicket: 1000,
+    description: "Join us for a musical extravaganza!",
+    imageUrl: img1,
+  },
+  {
+    id: 2,
+    eventName: "Webinar",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9765442145",
+    address: "5678 Stadium Road, Town",
+    numTickets: 75,
+    costOfEachTicket: 400,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img2,
+  },
+  {
+    id: 3,
+    eventName: "Music Concert",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9740032675",
+    address: "5678 Stadium Road, Town",
+    numTickets: 2000,
+    costOfEachTicket: 2000,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img3,
+  },
+  {
+    id: 4,
+    eventName: "Charity Event",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9000506753",
+    address: "5678 Stadium Road, Town",
+    numTickets: 100,
+    costOfEachTicket: 700,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img4,
+  },
+  {
+    id: 5,
+    eventName: "Product Launching Event",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9490838032",
+    address: "5678 Stadium Road, Town",
+    numTickets: 1000,
+    costOfEachTicket: 200,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img5,
+  },
+  {
+    id: 6,
+    eventName: "Conferenes",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9879632670",
+    address: "5678 Stadium Road, Town",
+    numTickets: 1250,
+    costOfEachTicket: 600,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img6,
+  },
+  {
+    id: 7,
+    eventName: "Exhibitions",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9177346690",
+    address: "5678 Stadium Road, Town",
+    numTickets: 700,
+    costOfEachTicket: 150,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img7,
+  },
+  {
+    id: 8,
+    eventName: "Corporate Event",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "8008542760",
+    address: "5678 Stadium Road, Town",
+    numTickets: 50,
+    costOfEachTicket: 1000,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img8,
+  },
+  {
+    id: 9,
+    eventName: "Team Building",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9954388701",
+    address: "5678 Stadium Road, Town",
+    numTickets: 70,
+    costOfEachTicket: "free",
+    description: "Cheer for your favorite teams!",
+    imageUrl: img9,
+  },
+  {
+    id: 10,
+    eventName: "Cultural Event",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9113577342",
+    address: "5678 Stadium Road, Town",
+    numTickets: 1400,
+    costOfEachTicket: 1000,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img10,
+  },
+  {
+    id: 11,
+    eventName: "Workshops",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9177437445",
+    address: "5678 Stadium Road, Town",
+    numTickets: 500,
+    costOfEachTicket: 500,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img11,
+  },
+  {
+    id: 12,
+    eventName: "Seminar",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "6302445126",
+    address: "5678 Stadium Road, Town",
+    numTickets: 200,
+    costOfEachTicket: 300,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img12,
+  },
+  {
+    id: 13,
+    eventName: "Wedding",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9490448032",
+    address: "5678 Stadium Road, Town",
+    numTickets: 850,
+    costOfEachTicket: "free",
+    description: "Cheer for your favorite teams!",
+    imageUrl: img14,
+  },
+  {
+    id: 14,
+    eventName: "Birthday Party",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9005045557",
+    address: "5678 Stadium Road, Town",
+    numTickets: 500,
+    costOfEachTicket: "free",
+    description: "Cheer for your favorite teams!",
+    imageUrl: img13,
+  },
+  {
+    id: 15,
+    eventName: "Dance Concerts",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9321567454",
+    address: "5678 Stadium Road, Town",
+    numTickets: 2000,
+    costOfEachTicket: 900,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img15,
+  },
+  {
+    id: 16,
+    eventName: "Competitive Exam",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9133536540",
+    address: "5678 Stadium Road, Town",
+    numTickets: 750,
+    costOfEachTicket:3000,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img16,
+  },
+  {
+    id: 17,
+    eventName: "Entertainment",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9134359643",
+    address: "5678 Stadium Road, Town",
+    numTickets: 1000,
+    costOfEachTicket: 2500,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img17,
+  },
+  {
+    id: 18,
+    eventName: "Corporate Hospitality Event",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9451245443",
+    address: "5678 Stadium Road, Town",
+    numTickets: 500,
+    costOfEachTicket: 800,
+    description: "Cheer for your favorite teams!",
+    imageUrl: img18,
+  },
+  {
+    id: 19,
+    eventName: "Sponsorship meeting",
+    organiserName: "Sports Enthusiasts Club",
+    contactNo: "9113424500",
+    address: "5678 Stadium Road, Town",
+    numTickets: 300,
+    costOfEachTicket: "Free",
+    description: "Cheer for your favorite teams!",
+    imageUrl: img19,
+  },
+ 
+];
+
+export default eventData;
+
+  
